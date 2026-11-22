@@ -1,0 +1,45 @@
+{
+    "cache_dir": "E:\\cacheAI",
+    "single_out_dir": "E:\\YoutubeProjects\\AIApps\\MusicLDM\\outputs",
+    "prompt_history": [
+        "A retro 1980s synthwave track with pulsing analog bass, bright synth leads, neon atmosphere, and a driving drum machine beat at 120 BPM",
+        "chinese"
+    ],
+    "single": {
+        "prompt": "A retro 1980s synthwave track with pulsing analog bass, bright synth leads, neon atmosphere, and a driving drum machine beat at 120 BPM",
+        "negative": "low quality",
+        "duration": 100.0,
+        "steps": 20,
+        "guidance": 3.5,
+        "seed": 42,
+        "random_seed": false,
+        "upsample": true,
+        "normalize": true,
+        "variations": 1,
+        "auto_fade": true,
+        "auto_play": true,
+        "seed_algorithm": "sequential",
+        "crossfade_duration": 2.0,
+        "loop_audio": false
+    },
+    "batch": {
+        "file_path": "",
+        "out_dir": "",
+        "duration": 5.0,
+        "steps": 20,
+        "guidance": 3.5,
+        "seed": 42,
+        "random_seed": false,
+        "upsample": true,
+        "normalize": true,
+        "variations": 1,
+        "auto_fade": true,
+        "skip_existing": false,
+        "vary_seed_per_prompt": false,
+        "seed_algorithm": "sequential",
+        "crossfade_duration": 2.0,
+        "loop_audio": false
+    },
+    "vae_slicing": false,
+    "volume": 0.9
+}
